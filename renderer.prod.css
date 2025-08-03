@@ -1,4 +1,4 @@
-/* styles-reset.css */
+/* raw-reset.css */
 *,
 *::before,
 *::after {
@@ -198,13 +198,13 @@ sup {
   outline-offset: 2px;
 }
 
-/* styles-main.css */
+/* raw-main.css */
 ::root {
 }
 * {
-  font-family: calibri !important;
+  font-family: sans !important;
 }
 html {
-  margin: -5px;
+  margin: 0;
   padding: 0;
 }

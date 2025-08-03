@@ -1,6 +1,6 @@
 
-import "./styles-reset.css"
-import "./styles-main.css"
+import "./raw-reset.css"
+import "./raw-main.css"
 
 import { h, render, Fragment, } from 'preact';
 import { App } from "./App.jsx"

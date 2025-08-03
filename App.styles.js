@@ -7,7 +7,8 @@ export const styles = {
         place-items: center;
         align-items: center; 
         text-align: center;
-        height: 600px;
+        min-height: 620px;
+        max-height: 620px;
         font-family: sans;
     `,
     header: css`
@@ -17,6 +18,12 @@ export const styles = {
     `,
     btn: css`
         font-size: 40px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        padding: 20px;
+        background: white;
+
+        &:hover { background: lightgray; }
     `,
     animateBg: css`
       @keyframes gradientShift {
