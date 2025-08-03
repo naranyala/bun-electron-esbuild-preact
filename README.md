@@ -1,13 +1,15 @@
 
 # bun-electron-esbuild-preact
 
-![demo-01](./assets/demo-01.png)
+![demo-02](./assets/demo-02.png)
 
 > a super minimal electron with preact jsx, goober (css-in-js), and @preact/signals
 
 > also, rxjs for advanced state management
 
 > less magic btw
+
+---
 
 - clone it
 - bun install
@@ -97,3 +99,16 @@ export const styles = {
 }
 
 ```
+
+## huge thanks 
+
+- electron 
+- esbuild
+- preact
+- goober
+- @preact/signals
+- rxjs
+
+---
+
+

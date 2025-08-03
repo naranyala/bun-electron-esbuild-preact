@@ -3,4 +3,4 @@
 // key-value store (json)
 // raw sqlite
 // drizzle sqlite 
-// turso sqlite
+// turso libsql-js

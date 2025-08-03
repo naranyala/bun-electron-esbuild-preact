@@ -13,8 +13,7 @@ export function App() {
     const increment = () => count.value++
 
     effect(() => {
-        console.log("count: ", count.value);
-        console.log("double: ", double.value);
+        console.log(`${count.value} - ${double.value}`);
     })
 
     return (
