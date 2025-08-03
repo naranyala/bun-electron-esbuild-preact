@@ -4,7 +4,7 @@ import { h, render, Fragment } from 'preact';
 import {signal, computed, effect} from "@preact/signals"
 import {styles} from "./App.styles.js"
 
-import {Button} from "./reusables/Button"
+import {Button} from "../reusables/Button"
 
 export function App() {
     const count = signal(0)

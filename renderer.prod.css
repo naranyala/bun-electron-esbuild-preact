@@ -200,6 +200,8 @@ sup {
 
 /* raw-main.css */
 ::root {
+  --clr-main: #111111;
+  --clr-secondary: #000000;
 }
 * {
   font-family: sans !important;

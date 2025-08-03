@@ -1,6 +1,7 @@
 
 ::root {
-    /* */ 
+    --clr-main: #111111;
+    --clr-secondary: #000000;
 }
 
 * {
@@ -10,4 +11,5 @@
 html {
     margin: 0;
     padding: 0;
+
 }
