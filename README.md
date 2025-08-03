@@ -22,6 +22,8 @@
 ## examples
 
 ```jsx 
+// App.jsx
+
 import { h, render, Fragment } from 'preact';
 import {signal, computed, effect} from "@preact/signals"
 import {styles} from "./App.styles.js"
@@ -49,6 +51,8 @@ export function App() {
 ```
 
 ```js 
+// App.styles.js
+
 import {css} from "goober"
 
 export const styles = {
