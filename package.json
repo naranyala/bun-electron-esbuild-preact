@@ -1,0 +1,24 @@
+{
+  "name": "minimal-electron-preact",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "bun esbuild.config.js",
+    "start": "npm run build && bun run electron ./index.html"
+  },
+  "dependencies": {
+    "@preact/signals": "^2.2.1",
+    "electron": "^33.0.0",
+    "esbuild": "^0.25.8",
+    "goober": "^2.1.16",
+    "preact": "^10.24.0",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
