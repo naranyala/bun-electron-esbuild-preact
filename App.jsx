@@ -1,7 +1,6 @@
 
 
-import { h, render, Fragment, } from 'preact';
-import {css} from "goober"
+import { h, render, Fragment } from 'preact';
 import {signal, computed, effect} from "@preact/signals"
 import {styles} from "./App.styles.js"
 
