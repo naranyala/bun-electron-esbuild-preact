@@ -7,6 +7,8 @@
 
 > also, rxjs for advanced state management
 
+> less magic btw
+
 - clone it
 - bun install
 - bun run build -> `bun run esbuild.config.js`
@@ -15,9 +17,11 @@
 
 ## todos
 
+- [ ] proper IPC setup
 - [ ] integrate preact router
 - [ ] global stores with rxjs 
 - [ ] sqlite persistent
+- [ ] typescript support
 
 ## examples
 
