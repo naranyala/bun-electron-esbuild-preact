@@ -1012,7 +1012,10 @@
     `
   };
 
-  // reusables/Button.styles.js
+  // reusables/Button.jsx
+  var Button = (props) => {
+    return /* @__PURE__ */ _("button", { className: styles2.btn }, props?.label ?? /* @__PURE__ */ _(k, null, /* @__PURE__ */ _("b", null, "ctrl+shift+i"), " ", "to open devtools"));
+  };
   var styles2 = {
     btn: u4`
         background: white;
@@ -1021,11 +1024,6 @@
 
         &:hover { background: lightgray; }
     `
-  };
-
-  // reusables/Button.jsx
-  var Button = (props) => {
-    return /* @__PURE__ */ _("button", { className: styles2.btn }, props?.label ?? /* @__PURE__ */ _(k, null, /* @__PURE__ */ _("b", null, "ctrl+shift+i"), " ", "to open devtools"));
   };
 
   // app-01/App.jsx
